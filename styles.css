@@ -60,3 +60,10 @@ a {
 body {
 font-family: "Poppins";
 }
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
