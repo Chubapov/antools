@@ -569,12 +569,11 @@ background: #1E252B;
         padding: 33px;
 }
 .newcomer-items:hover {
-  /* тёмный фон, чтобы свет был заметен */
+
   position: relative;
 
   background-color: #ffffff0a;
   
-    /* Слабый жёлтый свет из правого верхнего угла */
     background-image: radial-gradient(circle at top right,
         rgba(255, 240, 180, 0.15) 10%,
         rgba(255, 210, 120, 0.08) 20%,
@@ -585,12 +584,10 @@ background: #1E252B;
   background-repeat: no-repeat;
 }
 .tools-item:hover {
-  /* тёмный фон, чтобы свет был заметен */
   position: relative;
 
   background-color: #ffffff0a;
 
-  /* Слабый жёлтый свет из правого верхнего угла */
   background-image: radial-gradient(circle at top right,
       rgba(255, 240, 180, 0.15) 10%,
       rgba(255, 210, 120, 0.08) 20%,
