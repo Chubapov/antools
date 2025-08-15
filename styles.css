@@ -569,13 +569,10 @@ background: #1E252B;
         padding: 33px;
 }
 .newcomer-items:hover {
-
   position: relative;
-
   background-color: #ffffff0a;
-  
     background-image: radial-gradient(circle at top right,
-        rgba(255, 240, 180, 0.15) 10%,
+    rgba(252, 125, 21, 0.562) 10%,
         rgba(255, 210, 120, 0.08) 20%,
         rgba(255, 190, 80, 0.04) 30%,
         transparent 40%);
@@ -585,11 +582,9 @@ background: #1E252B;
 }
 .tools-item:hover {
   position: relative;
-
   background-color: #ffffff0a;
-
   background-image: radial-gradient(circle at top right,
-      rgba(255, 240, 180, 0.15) 10%,
+      rgba(252, 125, 21, 0.562) 10%,
       rgba(255, 210, 120, 0.08) 20%,
       rgba(255, 190, 80, 0.04) 30%,
       transparent 40%);
@@ -836,7 +831,7 @@ article img {
 #switch1:checked~#controls label:nth-child(2),
 #switch2:checked~#controls label:nth-child(3),
 #switch3:checked~#controls label:nth-child(1) {
-  background: url('/images/arrow.png') no-repeat;
+  background: url(/images/arrow.png) no-repeat;
   transform: rotate(180deg);
   position: absolute;
   right: 0;
